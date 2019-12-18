@@ -107,6 +107,14 @@ class DatasetCatalog(object):
         "cityscapes_fine_instanceonly_seg_test_cocostyle": {
             "img_dir": "cityscapes/images",
             "ann_file": "cityscapes/annotations/instancesonly_filtered_gtFine_test.json"
+        },
+        "voc_2019_train": {
+            "data_dir": "voc/VOC2019",
+            "split": "train"
+        },
+        "voc_2019_val": {
+            "data_dir": "voc/VOC2019",
+            "split": "val"
         }
     }
 
